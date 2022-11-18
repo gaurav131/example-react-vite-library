@@ -1,7 +1,6 @@
 {
-  "name": "examplereactvitelibrary",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@gaurav131/example-react-vite-library",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,5 +35,8 @@
       "import": "./dist/my-lib.es.js",
       "require": "./dist/my-lib.umd.js"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/gaurav131"
   }
 }
